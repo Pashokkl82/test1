@@ -6,5 +6,5 @@ def f(iterator):
 
 if __name__ == '__main__':
     iterator = int(input("Введите вместимость итератора: "))
-for i in f(iterator):
-    print(i)
+    for i in f(iterator):
+        print(i)
